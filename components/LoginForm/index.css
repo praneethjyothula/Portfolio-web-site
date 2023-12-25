@@ -1,0 +1,92 @@
+.title {
+  color: #f7931e;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px auto;
+  box-shadow: 0px 1px 2px 2px rgb(146, 123, 123);
+  width: 300px;
+  padding: 50px;
+}
+.login-btn {
+  background-color: #f7931e;
+  border: 0px;
+  width: 175px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: ease-in;
+  transition-duration: 0.5s;
+}
+.login-btn:hover {
+  background-color: white;
+  color: #f7931e;
+  border: 1px solid #f7931e;
+  transition: ease-out;
+  transition-duration: 0.5s;
+}
+.submit-data {
+  margin: 20px;
+  font-size: 20px;
+}
+.notification {
+  color: red;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    color: #f7931e;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+  }
+  .username {
+    font-size: 15px;
+  }
+  .password {
+    font-size: 15px;
+  }
+  .login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px auto;
+    box-shadow: 0px 1px 2px 2px rgb(146, 123, 123);
+    width: 200px;
+    padding: 50px;
+  }
+  .login-btn {
+    background-color: #f7931e;
+    border: 0px;
+    width: 152px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: ease-in;
+    transition-duration: 0.5s;
+  }
+}
